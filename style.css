@@ -152,41 +152,4 @@ padding: 80px;
     }
     
 
-    .accordion-container {
-        width:100%;
-       }
-       
-       .accordion-item {
-        border:1px solid #ccc;
-        margin-bottom:5px;
-        border-radius:5px; /* Rounded corners */
-        overflow:hidden; /* Prevents overflow from visible when opened */
-       }
-       
-       .accordion-toggle {
-        display:none; /* Hide checkbox */
-       }
-       
-       .accordion-title {
-        background-color:#f1f1f1;
-        cursor:pointer; /* Pointer on hover */
-        padding:10px;  
-        transition:.3s ease background-color: ; /* Smooth transition */
-       }
-       
-       /* Style when checked to change background color */
-       .accordion-toggle:checked + .accordion-title {
-        background-color:#ddd ;
-       }
-       
-       /* Initially hide accordion content */
-       .accordion-content {  
-        display:none ;  
-        padding :10px ;  
-        border-top :solid thin #ccc ;  
-        } 
-       
-       /* Show accordion content when checkbox is checked */     
-       .accordion-toggle:checked + . accordion-title + . accordion-content {   
-        display:block ;   
-        }
+   
