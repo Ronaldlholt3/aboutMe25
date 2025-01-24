@@ -152,4 +152,39 @@ padding: 80px;
     }
     
 
-   
+    @media (max-width: 768px) {
+        .nav{
+            height: 68px;
+        }
+        .h1{
+            font-size: 28px;
+        }
+        .h2 {
+            font-size: 28px;
+        }
+        .p {
+            font-size: 18px;
+        }
+        .step__card {
+            width: calc(100% / 3);
+        }
+       
+        .img_bording {
+            left: 30px;
+            padding-right: 30px;
+        }
+     }
+    /* SMALL PHONES */
+    
+     @media (max-width: 480px) {
+        .nav__link:not(:last-child) {
+            display: none;
+        }
+    
+        .container__one {
+            padding: 0;
+            left: 0;
+            width: 100%;
+        }
+    
+     }
